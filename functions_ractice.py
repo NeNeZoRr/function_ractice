@@ -16,3 +16,10 @@ def eat_lunch(F_list):
         print(f"First I eat {F_list[0]}")
         for item in F_list[1:]:
             print(f"Next I eat {item}")
+            
+hello()
+print(pack("a","b","c"))
+print(pack(1,2,3))
+eat_lunch([])
+eat_lunch(["Hoagie"])
+eat_lunch(["Orange","Peach","PB&J","Brownie"])
